@@ -1,4 +1,4 @@
-package com.kefas.springbatch;
+package com.kefas.springbatch.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -9,7 +9,6 @@ import org.springframework.core.io.ResourceLoader;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.jdbc.datasource.init.DatabasePopulatorUtils;
 import org.springframework.jdbc.datasource.init.ResourceDatabasePopulator;
-
 import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
 
